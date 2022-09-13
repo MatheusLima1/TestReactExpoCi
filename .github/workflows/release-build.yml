@@ -30,6 +30,4 @@ jobs:
       - name: Build on EAS production
         run: eas build -p android --profile production
       - name:  Publish Expo app prod-internal
-        run: expo publish --profile production-internal
-      - name:  Publish Expo app production
-        run: expo publish --profile production
+        run: expo publish 
