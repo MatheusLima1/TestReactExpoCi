@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "testreact6562",
     "name": "testreactnative",
     "slug": "testreactnative",
     "version": "1.0.0",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.matheuslima1.testreactnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d6d39321-00e6-47a3-9def-1bc89fb273ed"
+      }
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+    "build": {
+      "development": {
+        "android": {
+          "releaseChannel": "development",
+          "buildType": "apk",
+          "distribution": "internal",
+          "developmentClient": true
+        }
+      },
+      "production-internal": {
+        "android": {
+          "releaseChannel": "production",
+          "gradleCommand": ":app:assembleRelease",
+          "distribution": "internal"
+        }
+      },
+      "production": {
+        "android": {
+          "releaseChannel": "production",
+          "gradleCommand": ":app:assembleRelease"
+        }
+      }
+    }
+  }
+  
