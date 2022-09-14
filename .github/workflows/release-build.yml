@@ -33,5 +33,3 @@ jobs:
         run: eas build -p android --profile production
       - name:  Publish update 
         run: eas update --auto 
-      - name:  Publish Expo 
-        run: expo publish 
