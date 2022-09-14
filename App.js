@@ -1,7 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { withAuthenticator } from 'aws-amplify-react-native';
+import { Amplify } from 'aws-amplify';
 
-export default function App() {
+Amplify.configure(awsconfig);
+
+function App() {
   return (
     <View style={styles.container}>
       <Text>Hello worlds</Text>
@@ -9,6 +13,8 @@ export default function App() {
     </View>
   );
 }
+
+export default withAuthenticator(App);
 
 const styles = StyleSheet.create({
   container: {
