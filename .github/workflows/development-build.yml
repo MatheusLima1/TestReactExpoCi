@@ -29,5 +29,7 @@ jobs:
         run: npm test  
       - name: Build on EAS dev
         run: eas build -p android --profile development
+      - name:  Publish update 
+        run: eas update --auto
       - name:  Publish Expo app
         run: expo publish
