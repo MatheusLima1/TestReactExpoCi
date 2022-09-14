@@ -1,9 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { withAuthenticator } from 'aws-amplify-react-native';
-import { Amplify } from 'aws-amplify';
-
-Amplify.configure(awsconfig);
 
 function App() {
   return (

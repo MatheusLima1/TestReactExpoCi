@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "@react-native-picker/picker": "^2.4.4",
-    "aws-amplify": "^4.3.35",
-    "aws-amplify-react-native": "^6.0.5",
     "axios": "^0.27.2",
     "expo": "~46.0.9",
     "expo-dev-client": "~1.2.1",
